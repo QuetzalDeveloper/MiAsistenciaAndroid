@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imagen"
+            android:layout_width="60dp"
+            android:layout_height="55dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="13dp"
+            android:contentDescription="@string/app_name"
+            android:paddingLeft="5dp"
+            android:paddingTop="5sp"
+            android:paddingRight="5dp"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:id="@+id/idalumno"
+            android:layout_width="5dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imagen"
+            android:paddingLeft="10sp"
+            android:textColor="#ffff"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/correo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/idalumno"
+            android:gravity="left"
+            android:textColor="#7b7777"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/idalumno"
+            android:layout_toRightOf="@+id/imagen"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nombre"
+            android:layout_toRightOf="@+id/imagen"
+            android:text="@string/faltas"
+            android:textColor="#7b7777"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/faltas"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nombre"
+        android:layout_toRightOf="@+id/tt"
+        android:textColor="#2E0303"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+        <TextView
+            android:id="@+id/tt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nombre"
+            android:layout_toRightOf="@+id/faltas"
+            android:text="@string/retardos"
+            android:textColor="#7b7777"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/retardo"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nombre"
+        android:layout_toRightOf="@+id/tt2"
+        android:textColor="#2E0303"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+    </RelativeLayout>

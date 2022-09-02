@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Mi Asistencia</string>
+    <string name="grupos">GRUPOS</string>
+    <string name="alumnos">ALUMNOS</string>
+    <string name="nuevo_grupo">NUEVO GRUPO</string>
+    <string name="materia">Materia</string>
+    <string name="escuela">Escuela</string>
+    <string name="semestre">Semestre</string>
+    <string name="nivel">Nivel educativo</string>
+    <string name="guardar">Guardar</string>
+    <string name="nuevo_alumno">NUEVO ALUMNO</string>
+    <string name="nombre_alumno">Nombre (s)</string>
+    <string name="paterno_alumno">Apellido paterno</string>
+    <string name="materno_alumno">Apellido materno</string>
+    <string name="correo_alumno">Correo</string>
+    <string name="faltas">Faltas:</string>
+    <string name="retardos">Retardos:</string>
+    <string name="Asistencia">Asistencia</string>
+    <string name="Falta">Falta</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="eli_grupo">¿Seguro deseas eliminar al grupo?. Se eliminarán tambien los alumnos y asistencias.</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="registros">Registros</string>
+    <string name="gua_alumno">¿Seguro que deseas guardar el alumno?</string>
+    <string name="fecha">Fecha:</string>
+    <string name="estado">Estado:</string>
+    <string name="parcial">Parcial:</string>
+    <string name="eli_alumno">¿Seguro deseas eliminar al alumno?. Se eliminarán tambien las asistencias.</string>
+    <string name="pre_asistencia">¿Deseas pasar asistencia al grupo?</string>
+    <string name="retardo">Retardo</string>
+    <string name="exportar">Exportar a Excel</string>
+    <string name="exp_contenido">¿Seguro deseas exportar las asistencias a Excel?. No se eliminarán los datos almacenados.</string>
+</resources>

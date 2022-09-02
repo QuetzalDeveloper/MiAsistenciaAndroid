@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="parcial">
+        <item>Parcial 1</item>
+        <item>Parcial 2</item>
+        <item>Parcial 3</item>
+        <item>Parcial 4</item>
+    </string-array>
+
+    <string-array name="niveles">
+        <item>Universidad</item>
+        <item>Bachillerato</item>
+        <item>Secundaria</item>
+        <item>Primaria</item>
+    </string-array>
+
+</resources>
